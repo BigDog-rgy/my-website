@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { getAllProjects } from "@/lib/portfolio";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default function ProjectsPage({
   searchParams,
 }: {
