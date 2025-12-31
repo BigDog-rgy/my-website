@@ -13,7 +13,7 @@ export default function HomePage() {
         {projects.map((p) => (
           <Link
             key={p.id}
-            href={`/projects/${p.slug}`}
+            href={`/projects?id=${p.id}`}
             style={{
               border: "1px solid #ddd",
               borderRadius: 12,
